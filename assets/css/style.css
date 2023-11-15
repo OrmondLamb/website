@@ -160,8 +160,8 @@ header img {
 }
 
 .layer.intro {
-    
-    background-image: url("/assets/img/OL_Red_Pattern.png");
+    background-color:var(--brand-red);
+    background-image: url("https://ormondlamb.github.io/website/assets/img/OL_Red_Pattern.png");
     background-repeat:repeat;
     
     background-position:center center;
