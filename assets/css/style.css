@@ -263,7 +263,7 @@ p.large { font-size:2em; line-height:1.2em;}
 
 .layer.testimonials .inner { display:flex;flex-direction: column; gap:50px;  }
 
-.layer.testimonials .inner blockquote { text-align:center; font-size:1.5em; line-height:1.3em;}
+.layer.testimonials .inner blockquote { text-align:center; font-size:1.5em; line-height:1.3em; padding: 0 20px 20px 20px;}
 
 .layer.testimonials .swiper-container { max-width:800px; width:100%;}
 .layer.testimonials .swiper-slide { display:flex; flex-direction:column; background-color:rgba(255,255,255,0.5); padding:50px; }
