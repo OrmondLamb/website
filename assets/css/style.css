@@ -179,7 +179,7 @@ p.large { font-size:2em; line-height:1.2em;}
 }
 .layer.shop .inner { display:flex;flex-direction: column; gap:50px; }
 
-.layer.shop .products { display:flex; flex-wrap:wrap; gap:50px 20px; align-items:stretch;}
+.layer.shop .products { display:flex; flex-wrap:wrap; gap:50px; align-items:stretch;}
 .layer.shop .products .product { flex:1; min-width:320px; display:flex; flex-direction:column; gap:20px; align-items:flex-start; justify-content:flex-start;}
 .layer.shop .products .product img { width:100%;}
 .layer.shop .products .product h4, .layer.shop .products .product p, .layer.shop .products .product a.button { margin:0;}
