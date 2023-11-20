@@ -169,7 +169,7 @@ header img {
     min-height:60vh;
     display:flex;
 }
-.intro .inner { display:flex; align-items:center; gap:50px;}
+.intro .inner { display:flex; align-items:center; gap:50px; }
 .intro h2 { margin:0; line-height:1.2em;}
 .intro img { max-width:48%;}
 
@@ -178,6 +178,7 @@ header img {
     .intro img { max-width:80%;}
 }
 
+.subintro .inner { max-width:1200px; margin:0 auto; }
 p.large { font-size:2em; line-height:1.2em;}
 .center { text-align:center;}
 
