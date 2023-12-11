@@ -188,12 +188,19 @@ p.large { font-size:2em; line-height:1.2em;}
 .layer.shop .inner { display:flex;flex-direction: column; gap:50px; }
 
 .layer.shop .products { display:flex; flex-wrap:wrap; gap:50px; align-items:stretch;}
-.layer.shop .products .product { flex:1; min-width:320px; display:flex; flex-direction:column; gap:20px; align-items:flex-start; justify-content:flex-start;}
-.layer.shop .products .product img { width:100%;}
+@media(max-width:767px){
+    .layer.shop .products { gap:100px;}
+}
+
+.layer.shop .products .product { flex:1; min-width:320px; display:flex; flex-direction:column; gap:20px; align-items:center; justify-content:flex-start;}
+.layer.shop .products .product img { width:100%; max-width:348px;}
 .layer.shop .products .product h4, .layer.shop .products .product p, .layer.shop .products .product a.button { margin:0;}
 
-.layer.shop .products .product .button { border:1px solid var(--brand-blue); padding:10px 20px; color:var(--brand-blue); text-decoration:none; }
-.layer.shop .products .product .button:hover { border-color:var(--brand-red); color:var(--brand-red);}
+.layer.shop .products .product ul { display:flex; flex-direction:column;align-items:center; flex:1; padding:50px 0 0 0;}
+.layer.shop .products .product ul li { font-weight:bold;font-size:1.3em; padding:0;line-height:35px;}
+
+.layer.shop .products .product .button {  padding:1px 40px; text-decoration:none; background-color: var(--brand-red); color:#fff; border-radius:90px; font-size:1.8em; text-transform:uppercase; font-weight:bold; }
+.layer.shop .products .product .button:hover { background-color:var(--brand-blue); }
 .button { transition:all 0.3s ease-in-out;margin-top:auto !important;}
 .button:hover { border-color:var(--brand-red); color:var(--brand-red);}
 
@@ -201,10 +208,11 @@ p.large { font-size:2em; line-height:1.2em;}
 .section-intro.center { margin:0 auto;text-align:center;}
 .section-intro p.first { font-size:1.8rem; font-weight:900; margin-bottom:30px; line-height:1.3em; }
 .section-intro p { font-size:1.8rem;  margin-bottom:30px; line-height:1.3em;}
-.section-intro p b { color:#f03f39; text-transform:uppercase;''}
+.section-intro p b { color:#f03f39; text-transform:uppercase;}
 
 .layer.faqs .inner { display:flex;flex-direction: column; gap:50px; max-width:1000px; }
 
+img.stack { width:100%; max-width:1200px; margin:0 auto 30px auto;}
 
 
 /* Accordions */
@@ -283,32 +291,38 @@ p.large { font-size:2em; line-height:1.2em;}
 body .swiper-pagination-bullet-active { background:var(--brand-blue);}
 
 
-footer { background-color:var(--brand-blue); padding:130px 30px; color:#fff;display:flex; flex-direction:column; gap:50px;}
+footer { background-color:#fff9f3; color:var(--brand-blue); padding:100px 30px; display:flex; flex-direction:column; gap:50px; font-size:1.8em; font-weight:bold;}
+footer a {  color:var(--brand-blue); }
+footer .inner { display:flex; justify-content:space-between; flex-direction:column; align-items:center; border-top:10px solid var(--brand-red); padding-top:50px; }
 
-footer .inner { display:flex; justify-content:space-between;}
+footer .email { color:var(--brand-red);}
 
-footer .copyright { display:flex;  justify-content: flex-start; gap:20px; color:#fff;font-size:0.8em; }
-
-footer .copyright span { color:var(--brand-red);}
-footer .copyright a { color:#fff; text-decoration: none;}
+footer .copyright { display:flex;  justify-content: flex-start; gap:20px; font-size:18px; }
+footer .copyright p { margin:0;}
+footer .copyright span { color:var(--brand-red); display:flex; align-items:center; justify-content:center;}
+footer .copyright a {  text-decoration: none;}
 footer img { max-width:310px;}
 footer .left { display:flex; flex-direction:column; gap:50px;}
 footer h4 { font-family:'OrmondKSBold';}
-footer a { color:#fff;text-decoration:none;}
+footer a { text-decoration:none;}
 
-footer ul { padding-left:5px; list-style:none;}
-footer ul li { margin: 0;  margin-bottom: 0.2em;  padding-left: 1.5em;  position: relative; }
-footer ul li:after {
+ul { padding-left:5px; list-style:none;}
+ul li { margin: 0;  margin-bottom: 0.2em;  padding-left: 1.5em;  position: relative; display:flex; align-items:center; gap:15px; }
+ul li:before {
   content: "";
   height: 0.4em;
   width: 0.4em;
   background: var(--brand-red);
   display: block;
-  position: absolute;
+  
   transform: rotate(45deg);
   top: 0.8em;
   left: 0;
 }
 @media (max-width:1024px){
-    footer .inner { flex-direction:column-reverse;gap:50px;} 
+    footer { font-size:1.5em;}
+    footer .inner { flex-direction:column;gap:50px;} 
+    footer .copyright { flex-direction:column; gap:0; }
+
+    footer .inner p { text-align:center;}
 }
