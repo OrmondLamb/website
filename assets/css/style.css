@@ -291,7 +291,7 @@ img.stack { width:100%; max-width:1200px; margin:0 auto 30px auto;}
 body .swiper-pagination-bullet-active { background:var(--brand-blue);}
 
 
-footer { background-color:#fff9f3; color:var(--brand-blue); padding:100px 30px; display:flex; flex-direction:column; gap:50px; font-size:1.8em; font-weight:bold;}
+footer { background-color:#fff9f3; color:var(--brand-blue); padding:0 30px 60px 30px; display:flex; flex-direction:column; gap:50px; font-size:1.8em; font-weight:bold;}
 footer a {  color:var(--brand-blue); }
 footer .inner { display:flex; justify-content:space-between; flex-direction:column; align-items:center; border-top:10px solid var(--brand-red); padding-top:50px; }
 
