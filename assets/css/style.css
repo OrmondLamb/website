@@ -103,6 +103,8 @@ h3 {
     font-size:3rem;
 }
 
+h3 small { font-size:0.6em;}
+
 h4 {
     font-size: 1.5rem;
 }
@@ -209,8 +211,9 @@ p.large { font-size:2em; line-height:1.2em;}
 .section-intro p.first { font-size:1.8rem; font-weight:900; margin-bottom:30px; line-height:1.3em; }
 .section-intro p { font-size:1.8rem;  margin-bottom:30px; line-height:1.3em;}
 .section-intro p b { color:#f03f39; text-transform:uppercase;}
-
-.layer.faqs .inner { display:flex;flex-direction: column; gap:50px; max-width:1000px; }
+.layer.faqs { background-color:#fff9f3;}
+.layer.faqs .inner { display:flex;flex-direction: column; gap:0; max-width:1000px; }
+hr { border-bottom:10px solid var(--brand-red); width:100%;height:0; width:100%;border-top:none; appearance:none;margin:20px 0;}
 
 img.stack { width:100%; max-width:1200px; margin:0 auto 30px auto;}
 
@@ -236,6 +239,9 @@ img.stack { width:100%; max-width:1200px; margin:0 auto 30px auto;}
 .accordion {  
   border-top: 1px solid #ccc;  
   overflow: hidden;
+}
+.faq-rows .accordion:first-of-type { 
+    border-top:none;
 }
 .accordion__label,
 .accordion__close {
@@ -293,7 +299,7 @@ body .swiper-pagination-bullet-active { background:var(--brand-blue);}
 
 footer { background-color:#fff9f3; color:var(--brand-blue); padding:0 30px 60px 30px; display:flex; flex-direction:column; gap:50px; font-size:1.8em; font-weight:bold;}
 footer a {  color:var(--brand-blue); }
-footer .inner { display:flex; justify-content:space-between; flex-direction:column; align-items:center; border-top:10px solid var(--brand-red); padding-top:50px; }
+footer .inner { display:flex; justify-content:space-between; flex-direction:column; align-items:center; padding-top:50px; }
 
 footer .email { color:var(--brand-red);}
 
