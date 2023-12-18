@@ -40,6 +40,11 @@ html {
     scroll-behavior: smooth;
     
 }
+
+@media (max-width:767px){
+    html { font-size: 16px; }
+}
+
 html * { box-sizing: border-box;}
 
 body {
@@ -56,10 +61,10 @@ body {
 }
 
 .pattern-wrap {
-    background-image: url(../img/pattern.png);
+    /* background-image: url(../img/pattern.png);
     background-size:100%;
-    background-position:top 30px center;
-    padding:40px;
+    background-position:top 30px center; */
+    padding:0;
 }
 
 p, ul {
@@ -138,6 +143,12 @@ header .inner {
     padding:100px 5% 50px 5%;
 }
 
+@media (max-width:767px){
+    header .inner {
+        padding:30px 5% 30px 5%;
+    }
+}
+
 header .inner nav a {
     color: var(--brand-blue);
     text-decoration: none;
@@ -151,6 +162,12 @@ header img {
 }
 
 .layer { padding: 100px 30px;}
+
+@media (max-width:767px){
+
+    .layer { padding: 60px 30px;}
+
+}
 
 .alternating { display:flex; gap:50px; justify-content:center; padding:0;}
 .alternating > .col { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; overflow:hidden;}
