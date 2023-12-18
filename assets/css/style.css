@@ -211,7 +211,7 @@ p.large { font-size:2em; line-height:1.2em;}
     .layer.shop .products { gap:100px;}
 }
 
-.layer.shop .products .product { flex:1; min-width:320px; display:flex; flex-direction:column; gap:20px; align-items:center; justify-content:flex-start;}
+.layer.shop .products .product { flex:1; min-width:300px; display:flex; flex-direction:column; gap:20px; align-items:center; justify-content:flex-start;}
 .layer.shop .products .product img { width:100%; max-width:348px;}
 .layer.shop .products .product h4, .layer.shop .products .product p, .layer.shop .products .product a.button { margin:0;}
 
