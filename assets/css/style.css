@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'OrmondMPAU';
-    src: url('https://ormondlamb.github.io/website/assets/fonts/OrmondMPAU.woff2') format('woff2'),
-        url('https://ormondlamb.github.io/website/assets/fonts/OrmondMPAU.woff') format('woff');
+    src: url('https://www.ormondlamb.co.nz/assets/fonts/OrmondMPAU.woff2') format('woff2'),
+        url('https://www.ormondlamb.co.nz/assets/fonts/OrmondMPAU.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'OrmondKSReg';
-    src: url('https://ormondlamb.github.io/website/assets/fonts/OrmondKSReg.woff2') format('woff2'),
-        url('https://ormondlamb.github.io/website/assets/fonts/OrmondKSReg.woff') format('woff');
+    src: url('https://www.ormondlamb.co.nz/assets/fonts/OrmondKSReg.woff2') format('woff2'),
+        url('https://www.ormondlamb.co.nz/assets/fonts/OrmondKSReg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'OrmondKSBold';
-    src: url('https://ormondlamb.github.io/website/assets/fonts/OrmondKSBold.woff2') format('woff2'),
-        url('https://ormondlamb.github.io/website/assets/fonts/OrmondKSBold.woff') format('woff');
+    src: url('https://www.ormondlamb.co.nz/assets/fonts/OrmondKSBold.woff2') format('woff2'),
+        url('https://www.ormondlamb.co.nz/assets/fonts/OrmondKSBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
